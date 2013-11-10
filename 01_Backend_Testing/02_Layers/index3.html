@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log in Layers</title>
+    <link rel="stylesheet" type="text/css" href="css/blackbird.css"/>
+    <script type="text/javascript">
+        var start = new Date().getTime();
+    </script>
+</head>
+<body>
+    <script type="text/javascript" src="js/blackbird.js"></script>
+    <script type="text/javascript">
+        log.toggle();
+        log.move();
+        log.move();
+        log.move();
+    </script>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $( function ()
+        {
+            log.debug( "Start Time: " + start );
+            log.debug( "Final Time: " + ( +new Date().getTime() - start ) );
+        } );
+    </script>
+</body>
+</html>

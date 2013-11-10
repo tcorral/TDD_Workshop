@@ -1,0 +1,6 @@
+Step 06:
+    Change npm test command to call mocha test.
+    Write your first test
+    Execute tests executing: npm test -> it should fail (RED)
+    Write the implementation in source code.
+    Execute tests executing: npm test -> it should success (GREEN)

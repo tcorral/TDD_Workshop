@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Developer Tools</title>
+</head>
+<body>
+    <div>Press F12 to open your developer tools</div>
+    <input type="button" id="button" value="Click Me"/>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $( function()
+        {
+            $( '#button' ).click( function ()
+            {
+                console.log( "Id: " + this.id + " | Content: " + this.value );
+            } );
+        } );
+    </script>
+</body>
+</html>

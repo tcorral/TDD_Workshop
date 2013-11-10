@@ -1,0 +1,8 @@
+http://karma-runner.github.io/0.10/index.html
+https://github.com/vojtajina/karma-jstd
+npm install -g karma
+Create a karma.conf.js in your root folder
+execute karma start
+(if singleRun is true it will execute the test and exit)
+(if singleRun is false it will execute the test and wait)
+(You can select autowatch to execute the tests on each change)

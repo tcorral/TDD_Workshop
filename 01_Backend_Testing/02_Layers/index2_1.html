@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log in Layers</title>
+    <script type="text/javascript">
+        var start = new Date().getTime();
+    </script>
+</head>
+<body>
+    <ul id="results"></ul>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $( function ()
+        {
+            $( "#results" ).append( "<li>Start Time: " + start + "</li>" );
+            $( "#results" ).append( "<li>Final Time: " + ( +new Date().getTime() - start + "</li>" ) );
+        } );
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Click two times in a test will open a new page where you can test this test alone.

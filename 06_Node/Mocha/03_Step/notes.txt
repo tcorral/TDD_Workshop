@@ -1,0 +1,6 @@
+Step 03:
+    Install dependencies
+    npm install -g mocha
+    npm install mocha --save-dev
+    npm install sinon --save-dev
+    npm install should --save-dev

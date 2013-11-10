@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log in Layers</title>
+</head>
+<body>
+    <input type="button" id="button" value="Click Me"/>
+    <ul id="results"></ul>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $( function ()
+        {
+            $( '#button' ).click( function ()
+            {
+                $( "#results").append( "<li>Id: " + this.id + " | Content: " + this.value + "</li>" );
+            } );
+        } );
+    </script>
+</body>
+</html>

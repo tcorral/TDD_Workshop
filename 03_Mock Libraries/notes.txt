@@ -1,0 +1,6 @@
+Why mock?
+Because you only have to test your code not your dependencies.
+If you are in a team, the task could be splitted to work in parallel.
+You only need to know the contract that will be used for the external code and mock
+these dependencies.
+http://sinonjs.org/docs/#server

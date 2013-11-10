@@ -1,0 +1,17 @@
+{
+  "name": "Validate",
+  "version": "0.0.0",
+  "description": "Class to Validate",
+  "main": "src/source.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "validate"
+  ],
+  "author": "me",
+  "license": "MIT"
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assertions</title>
+</head>
+<body>
+    <div>Press F12 to open your developer tools</div>
+    <input type="button" id="button" value="Run tests"/>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/case_01/calculator.js"></script>
+    <script type="text/javascript" src="js/case_01/assert.js"></script>
+    <script type="text/javascript" src="js/case_01/tests.js"></script>
+    <script type="text/javascript">
+        $( function()
+        {
+            $( '#button' ).click( function ()
+            {
+                runTests();
+            } );
+        } );
+    </script>
+</body>
+</html>

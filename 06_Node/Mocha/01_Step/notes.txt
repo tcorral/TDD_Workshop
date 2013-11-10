@@ -1,0 +1,6 @@
+Step 01:
+    Create a project in Node.js
+    Create a src folder
+        Create a source.js file
+    Create a test folder
+    	Create a test.js file

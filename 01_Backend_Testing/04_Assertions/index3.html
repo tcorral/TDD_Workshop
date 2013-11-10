@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assertions</title>
+</head>
+<body>
+    <input type="button" id="button" value="Run tests"/>
+    <ul id="results"></ul>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/case_03/calculator.js"></script>
+    <script type="text/javascript" src="js/case_03/testCase.js"></script>
+    <script type="text/javascript" src="js/case_03/tests.js"></script>
+    <script type="text/javascript">
+        $( function()
+        {
+            $( '#button' ).click( function ()
+            {
+                runTests();
+            } );
+        } );
+    </script>
+</body>
+</html>

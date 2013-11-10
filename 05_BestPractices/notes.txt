@@ -1,0 +1,20 @@
+http://otroblogmas.com/tdd-buenas-practicas/
+http://en.wikipedia.org/wiki/Single_responsibility_principle
+
+http://net.tutsplus.com/tutorials/javascript-ajax/test-driven-javascript-development-in-practice/
+https://gitorious.org/javascript-unit-testing/code/source/523a9920b8ba50e585a20ecc15c18709a723f762:jstestdriver
+
+* Have separate source and test folders. Test code should follow the structure of source.
+* Test should fail the first time it’s written/run
+* Test names should reflect intent, and names should be expressive
+* Refactor to remove duplicate code after passing test
+* Re-run tests after every refactoring
+* Only write new code when a test is failing. Each test should test new/different behavior.
+* Write the assertion first
+* Minimize the assertions in each test
+* All tests should pass before writing the next test
+* Only refactor when all tests are passing
+* Write the simplest code to pass the test
+* Don’t introduce dependencies between tests. Test should pass when run in any order.
+* Tests should run fast. A slow test is a test that won’t get run.
+* Use mock objects to test code at system boundaries (e.g. databas

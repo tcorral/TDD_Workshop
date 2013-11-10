@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log in Layers</title>
+    <script type="text/javascript">
+        var start = new Date().getTime();
+    </script>
+</head>
+<body>
+    <ul id="results"></ul>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $( function ()
+        {
+            var nIndex,
+                    nIterations = 100;
+
+            for( nIndex = 0; nIndex < nIterations; nIndex++ )
+            {
+                $( "#results" ).append( "<li>Execution " + nIndex + " from " + nIterations + "</li>");
+            }
+        } );
+    </script>
+</body>
+</html>

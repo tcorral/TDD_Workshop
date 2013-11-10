@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Developer Tools</title>
+    <script type="text/javascript">
+        var start = new Date().getTime();
+    </script>
+</head>
+<body>
+    <div>Press F12 to open your developer tools</div>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $( function ()
+        {
+            console.log( 'Start Time: ' + start );
+            console.log( 'Final Time: ' + ( new Date().getTime() - start ) );
+        } );
+    </script>
+</body>
+</html>

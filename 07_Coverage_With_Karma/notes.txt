@@ -1,0 +1,5 @@
+Use npm init to create a package.json
+Install karma in the project using npm install karma --save-dev
+Install karma-junit-reporter using npm install karma-junit-reporter --save-dev
+Install karma-coverage using npm install karma-coverage --save-dev
+Change scripts->test to use karma -> "test": "karma start"

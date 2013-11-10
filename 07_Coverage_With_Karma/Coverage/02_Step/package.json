@@ -1,0 +1,14 @@
+{
+  "name": "CoverageExample",
+  "version": "0.0.0",
+  "description": "Example with karma-coverage",
+  "main": "src/source.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coverage"
+  ],
+  "author": "me",
+  "license": "MIT"
+}

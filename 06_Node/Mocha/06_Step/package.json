@@ -1,0 +1,22 @@
+{
+  "name": "Validate",
+  "version": "0.0.0",
+  "description": "Class to Validate",
+  "main": "src/source.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "validate"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "sinon": "~1.7.3",
+    "should": "~2.0.2"
+  }
+}

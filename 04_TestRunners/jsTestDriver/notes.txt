@@ -1,0 +1,11 @@
+https://js-test-driver.googlecode.com/files/JsTestDriver-1.3.5.jar
+http://misko.hevery.com/2009/05/07/configure-your-ide-to-run-your-tests-automatically/
+
+//Change directory to:
+    "D:\Github Projects\TDD_Workshop\04_TestRunners\jsTestDriver\"
+//Launch server.
+    java -jar JsTestDriver-1.3.5.jar --port 9876 --config jsTestDriver.conf
+    java -jar JsTestDriver-1.3.5.jar --port 9876 --config "D:\Github Projects\TDD_Workshop\04_TestRunners\jsTestDriver\Example\jsTestDriver.conf"
+//Launch tests.
+    java -jar JsTestDriver-1.3.5.jar --port 9876 --config jsTestDriver.conf --tests all
+    java -jar JsTestDriver-1.3.5.jar --port 9876 --config "D:\Github Projects\TDD_Workshop\04_TestRunners\jsTestDriver\Example\jsTestDriver.conf" --tests all

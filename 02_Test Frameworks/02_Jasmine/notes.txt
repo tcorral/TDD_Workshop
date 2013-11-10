@@ -1,0 +1,10 @@
+Jasmine is a BDD test framework
+http://pivotal.github.io/jasmine/
+
+To use it in browser you need to download the standalone version from:
+https://github.com/downloads/pivotal/jasmine/jasmine-standalone-1.3.0.zip
+
+http://net.tutsplus.com/tutorials/javascript-ajax/testing-your-javascript-with-jasmine/
+
+Say about how to remove a single test.
+

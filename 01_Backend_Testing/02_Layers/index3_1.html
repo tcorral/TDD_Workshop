@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log in Layers</title>
+    <link rel="stylesheet" type="text/css" href="css/blackbird.css"/>
+    <script type="text/javascript">
+        var start = new Date().getTime();
+    </script>
+</head>
+<body>
+    <script type="text/javascript" src="js/blackbird.js"></script>
+    <script type="text/javascript" src="js/getMessageType.js"></script>
+    <script type="text/javascript">
+        log.toggle();
+        log.move();
+        log.move();
+        log.move();
+    </script>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $( function ()
+        {
+            var nIndex,
+                nIterations = 100;
+
+            for( nIndex = 0; nIndex < nIterations; nIndex++ )
+            {
+                log[ getMessageType( ) ]( "Execution " + nIndex + " from " + nIterations );
+            }
+        } );
+    </script>
+</body>
+</html>
