@@ -16,7 +16,7 @@ TestCase( 'Mock usage', {
     this.oDOM.addContent('<div id="test_layer"></div>');
 
     this.oMock.verify();
-    assertEquals( 0, $("#test_layer").length );
+    assertEquals( 1, $("#test_layer").length );
   },
   'test should check that jQuery.fn.remove is being executed': function ()
   {

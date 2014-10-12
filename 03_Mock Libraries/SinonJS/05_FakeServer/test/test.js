@@ -27,5 +27,17 @@ TestCase( 'Sinon FakeServer', {
       '[{ "id": 12, "comment": "Hey there" }]' );
 
     assert( callback.calledWith( null, [ { id: 12, comment: "Hey there" }] ) );
+  },
+  "test should fetch comments from server" : function () {
+    var callback = sinon.spy();
+    var html = '<html><head></head><body></body></html>';
+    this.oController.getCommentsFor( "/some/article", callback );
+
+    assertEquals( 1, this.aRequests.length );
+
+    this.aRequests[0].respond( 404, { "Content-Type": "text/html" },
+      html );
+
+    assert( callback.calledWith( null, null ));
   }
 });

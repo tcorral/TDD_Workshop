@@ -1,6 +1,6 @@
 http://karma-runner.github.io/0.10/index.html
 https://github.com/vojtajina/karma-jstd
-npm install -g karma
+npm install -g karma-cli
 Create a karma.conf.js in your root folder
 execute karma start
 (if singleRun is true it will execute the test and exit)

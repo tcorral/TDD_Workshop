@@ -17,6 +17,7 @@
         },
         error: function( jqXHR, sTextStatus, erErrorThrown )
         {
+          console.log(erErrorThrown);
           fpCallback( erErrorThrown, null );
         }
       });

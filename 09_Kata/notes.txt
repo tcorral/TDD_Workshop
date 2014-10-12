@@ -1,4 +1,4 @@
-http://pauloortins.com/code-kata-javascript-jasmine/
+http://www.pauloortins.com/2013/05/08/code-kata-javascript-jasmine/
 
 Write your calculator class/object that:
 
@@ -12,3 +12,10 @@ Write your calculator class/object that:
 * Strings are not allowed it should return an error.
 * Undefined and Null should be changed to zero values.
 * Remember to check for different values that could make your code fail.
+
+
+substract(4,2) 4 - 2
+substract(100, 10, 20, 10, 5) 100 - 10 - 20 - 10 - 5
+
+sum(2, 3) 2 + 3
+sum(2, 4, 6, 10) 2 + 4 + 6 + 10

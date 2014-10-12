@@ -1,16 +1,16 @@
 {
-  "name": "Validate",
+  "name": "Calculator",
   "version": "0.0.0",
-  "description": "Class to Validate",
-  "main": "src/source.js",
+  "description": "Class to Calculate",
+//  "main": "src/Calculator.js",
   "directories": {
-    "test": "test"
+    "test": "spec"
   },
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "mocha spec/CalculatorSpec.js"
   },
   "keywords": [
-    "validate"
+    "calculator"
   ],
   "author": "me",
   "license": "MIT",

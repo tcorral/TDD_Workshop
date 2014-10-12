@@ -1,3 +1,3 @@
 var should = require( 'should' ),
-  source = require( '../src/source' ),
+  Calculator = require( '../src/Calculator' ),
   sinon = require( 'sinon' );

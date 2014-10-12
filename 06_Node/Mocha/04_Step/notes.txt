@@ -1,2 +1,2 @@
 Step 04:
-    Require needed files to start with test.js file.
+    Require needed files to start with CalculatorSpec.js file.

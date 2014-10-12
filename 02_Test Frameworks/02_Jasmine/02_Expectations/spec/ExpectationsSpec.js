@@ -49,7 +49,6 @@ describe("Included matchers:", function() {
     var a = {
       foo: 'foo'
     };
-
     expect(a.foo).not.toBeUndefined();
     expect(a.bar).toBeUndefined();
   });

@@ -12,25 +12,14 @@
 //  });
 //});
 describe( 'Async Test', function(){
-  var flag, value;
-  it("should support async execution of test preparation and expectations", function () {
+  it("should support async execution of test preparation and expectations", function (done) {
+    var value = 0;
 
-    runs(function() {
-      flag = false;
-      value = 0;
-
-      setTimeout(function() {
-        flag = true;
-      }, 500);
-    });
-
-    waitsFor(function() {
+    setTimeout(function() {
       value++;
-      return flag;
-    }, "The Value should be incremented", 750);
+      done();
+    }, 500);
 
-    runs(function() {
-      expect(value).toBeGreaterThan(0);
-    });
+    expect(value).toBeGreaterThan(0);
   });
 });
